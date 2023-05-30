@@ -1,0 +1,27 @@
+@import '../../styles/general.scss';
+
+#ico-container {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    gap: 25px;
+    background-color: dodgerblue;
+    .methods-container {
+        padding: 0 30px;
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 40px;
+            padding: 0;
+            input {
+                height: 50px;
+            }
+        }
+    }
+}
